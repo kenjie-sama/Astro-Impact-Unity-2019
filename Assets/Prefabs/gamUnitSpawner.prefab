@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &913418512904698635
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 913418512516930906}
+  - component: {fileID: 913418512904698633}
+  - component: {fileID: 913418512904698632}
+  m_Layer: 0
+  m_Name: gamUnitSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &913418512516930906
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913418512904698635}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 140.4}
+  m_LocalScale: {x: 108, y: 108, z: 108}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -1.0799999, y: 784.08}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &913418512904698633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913418512904698635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 586b278fc602d1c4499813921b0d5ce2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Asteroids:
+  - {fileID: 5973912063095870413, guid: b9bc9413d0fb928448e8c9a913720e67, type: 3}
+  - {fileID: 5203931390903965227, guid: 1aaca888b69fd014f989f5fc2460af5e, type: 3}
+  - {fileID: 1778388241260686151, guid: 299cbd5c2844cee49b0e5a9cdff9b8ae, type: 3}
+  enemyPlane: {fileID: 5726070120154361889, guid: 5c3338f09a2eeba4b966b2588ace9493,
+    type: 3}
+  enemyPlane2: {fileID: 3639091488710176702, guid: 17132861952a3374ba81f5987e2ee678,
+    type: 3}
+  timer: 2
+  timeShow: {fileID: 0}
+  scores: {fileID: 4743627654311318248, guid: b62dbb26860f212428c4a3a7bd1654ad, type: 3}
+  playerUnit: {fileID: 1647017355, guid: 2bfc498d537065f4b95f41bb817b06fa, type: 3}
+  powerUps:
+  - {fileID: 6044552953473943506, guid: a90ed950690003d469d4c1d52d95d00b, type: 3}
+  - {fileID: 3369899466837364406, guid: 663b93a57d18a9c49be6c02e24f6ef08, type: 3}
+  levelCompleteObject: {fileID: 0}
+--- !u!222 &913418512904698632
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913418512904698635}
+  m_CullTransparentMesh: 0
